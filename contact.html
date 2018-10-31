@@ -12,7 +12,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Igor Baveda</a>
+        <a class="navbar-brand" href="index.html">Igor Baveda</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                        More Info
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="portfolio.html">Portfolio</a>
@@ -44,12 +44,17 @@
         </div>
     </nav>
     <form method="POST" action="https://formspree.io/igorbaveda@gmail.com">
-        <br/>
-        <input type="email" name="email" placeholder="Your email">
-    <br/><br/><br/><br/>
-        <textarea name="message" placeholder="How can I help you? :)"></textarea>
-        <br/>
-        <button type="submit">Submit</button>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="How can I help you? :)" rows="3"></textarea>
+            <br/>
+            <input class="btn btn-primary" type="submit" value="Submit">
+        </div>
       </form>
     
 
