@@ -14,7 +14,7 @@ html {
         -moz-background-size: cover;
         -o-background-size: cover;
         height:100%;
-        font-family: roboto,serif;
+        font-family: roboto, serif;
   }
   .footer {
     position: absolute;
