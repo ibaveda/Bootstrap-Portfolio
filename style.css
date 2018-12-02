@@ -35,6 +35,7 @@ html {
   }
   .jumbotron {
       padding: 15px;
+      opacity: 0.70;
 
   
   /* Custom page CSS
